@@ -1,0 +1,81 @@
+
+@media print {
+  
+  #myDivToPrint {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+#printButton {
+  background: #5a666e;
+  background-image: -webkit-linear-gradient(top, #5a666e, #052336);
+  background-image: -moz-linear-gradient(top, #5a666e, #052336);
+  background-image: -ms-linear-gradient(top, #5a666e, #052336);
+  background-image: -o-linear-gradient(top, #5a666e, #052336);
+  background-image: linear-gradient(to bottom, #5a666e, #052336);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float:right;
+}
+
+
+#printButton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #1774a6);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #1774a6);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #1774a6);
+  background-image: -o-linear-gradient(top, #3cb0fd, #1774a6);
+  background-image: linear-gradient(to bottom, #3cb0fd, #1774a6);
+  text-decoration: none;
+}
+
+
+
+.customInput {
+	font-weight:bold;
+}
+
+.cvv {
+	width: 10%;
+	display: inline;
+}
+
+th {
+    text-align: center;
+} 
+
+tr {
+	text-align: center;
+}
+
+table{
+	width:200%;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #FFB56B;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#E8826A;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+
+

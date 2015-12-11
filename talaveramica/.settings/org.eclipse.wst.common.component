@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="talaveramica">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="tienda.war" deploy-path="/" handle="module:/resource/tienda/tienda">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="proveedores.war" deploy-path="/" handle="module:/resource/proveedores/proveedores">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pedidos.jar" deploy-path="/" handle="module:/resource/pedidos/pedidos">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="administracion.war" deploy-path="/" handle="module:/resource/administracion/administracion">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pedidosClient.jar" deploy-path="/" handle="module:/resource/pedidosClient/pedidosClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="persistencia.jar" deploy-path="/lib" handle="module:/resource/persistencia/persistencia">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
